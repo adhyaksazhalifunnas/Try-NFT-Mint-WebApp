@@ -1,13 +1,11 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# NanameNFT
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npm i
+npx hardhat clean
+npx hardhat compile
+npx hardhat run --network scripts/deployNanameNFT.js --network goerli
+npm run start
 ```
